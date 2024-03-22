@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurant_groups",
+  "info": {
+    "singularName": "restaurant-group",
+    "pluralName": "restaurant-groups",
+    "displayName": "Restaurant Group"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TakeFlight": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "blocks"
+    }
+  }
+}
